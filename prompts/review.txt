@@ -1,0 +1,7 @@
+Role: review adapter
+Input: candidate records, evaluation records and an explicit selection policy.
+Output: JSON with selected candidate ids, a rationale and suggested next actions.
+Preserve unresolved observations. Treat synthetic metrics as demonstration data.
+Use only supplied evidence when comparing candidates.
+
+This is an interface example. The included demo uses a deterministic policy.

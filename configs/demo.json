@@ -1,0 +1,9 @@
+{
+  "mode": "synthetic",
+  "seed": 17,
+  "rounds": 2,
+  "candidates_per_round": 6,
+  "select": 2,
+  "initial_radius": 0.8,
+  "task_file": "../examples/demo_task.json"
+}

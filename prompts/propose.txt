@@ -1,0 +1,7 @@
+Role: proposal adapter
+Input: a generic task specification, allowed parameter bounds and optional feedback.
+Output: JSON candidates with an id and a parameters object.
+Keep proposals inside the supplied bounds. Explain any proposed change using only
+provided task context. Do not invent observations or completed evaluations.
+
+This is an interface example. The included demo does not call a language model.

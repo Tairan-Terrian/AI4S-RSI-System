@@ -1,0 +1,12 @@
+{
+  "name": "Generic search demonstration",
+  "description": "Explore two abstract parameters using synthetic quality and cost metrics.",
+  "parameter_bounds": {
+    "x": [-1.0, 1.0],
+    "y": [-1.0, 1.0]
+  },
+  "objectives": [
+    {"name": "quality", "direction": "maximize"},
+    {"name": "cost", "direction": "minimize", "role": "tie_breaker"}
+  ]
+}
